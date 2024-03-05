@@ -8,7 +8,7 @@ import java.lang.Math;
  * as central difference approximation, Richardson extrapolation
  * approximation, and exact value.
  */
-public class HW01 {
+public class CentralRichardsonApproximation {
 
     public static void main(String[] args) {
         double x = Double.parseDouble(args[0]); // Command-line input
@@ -35,4 +35,4 @@ public class HW01 {
 
     } // main
 
-} // HW01
+} // CentralRichardsonApproximation
